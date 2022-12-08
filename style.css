@@ -1,0 +1,76 @@
+@import url('https //fonts.googleapis.com/css family=poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:#e3f2fd;
+}
+.wrapper{
+    background: #141414;;
+    width: 780px;
+    border-radius: 20px;
+    padding: 35px 40px;   
+}
+.wrapper header{
+    color :#b2b2b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h2{
+    font-size: 1.6rem;
+
+}
+header .column{
+    display: flex;
+    align-items: center;
+}
+header .column span {
+    font-weight: 500;
+    margin-right: 15px;
+    font-size: 1.19rem;
+}
+.volume-slider input{
+    accent-color:#fff;
+    outline: none;
+}
+.keys-checkbox input{
+    width: 60px;
+    outline: none;
+    position:relative;
+    cursor: pointer;
+    height: 30px;
+    background: #6c6c6c;
+    border-radius:30px ;
+    appearance: none;
+} 
+.keys-checkbox input::before{
+    content:"";
+    border-radius: inherit;
+    width: 20px;
+    top: 50%;
+    left: 5px;
+    height: 20px;
+    position:absolute;
+    background: #8c8c8c;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+.keys-checkbox input:checked::before{
+    left: 35px;
+    background :#fff;
+
+}
+.piano-keys .keys{
+    list-style:none;
+    color: #a2a2a2;
+
+}
