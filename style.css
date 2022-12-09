@@ -1,5 +1,5 @@
 @import url('https //fonts.googleapis.com/css family=poppins');
-
+/*Realised by NaroDk*/
 * {
     margin: 0;
     padding: 0;
@@ -68,6 +68,7 @@ header .column span {
     left: 35px;
     background :#fff;
 }
+
 .piano-keys {
     display: flex;
     margin-top: 40px;
