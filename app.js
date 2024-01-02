@@ -1,4 +1,4 @@
-//Realised by YDK 16-08-2022
+//Realised by YDK 16-08-2022 github Narodk1
 let allKeys=[];
 const pianoKeys = document.querySelectorAll(".piano-keys .key");
 let audio = new Audio("tunes/a.wav");//by default , audio src is'a'tune
